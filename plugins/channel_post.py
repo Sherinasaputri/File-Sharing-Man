@@ -44,14 +44,14 @@ async def channel_post(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"
+                    "Download", url=f"https://telegram.me/share/url?url={link}"
                 )
             ]
         ]
     )
 
     await reply_text.edit(
-        f"<b>Link Sharing File Berhasil Di Buat :</b>\n\n{link}",
+        f"<b>Video Record Gratis:</b>\n{link}\n\n\nGroup VIP Ada Puluhan Ribu Video Langsung Tonton Tanpa Link dan Update Tiap Hari:\nhttps://t.me/joinchat/U66STU2bMQJiOWFl",
         reply_markup=reply_markup,
         disable_web_page_preview=True,
     )
@@ -76,7 +76,7 @@ async def new_post(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"
+                    "Download", url=f"https://telegram.me/share/url?url={link}"
                 )
             ]
         ]
